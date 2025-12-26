@@ -1,4 +1,4 @@
-# Website Builder AI Project
+# ZyroAI - AI Website Builder
 
 An intelligent, AI-powered website builder designed to streamline the web development process. This project leverages a modern tech stack to provide a seamless user experience for building and deploying websites.
 
