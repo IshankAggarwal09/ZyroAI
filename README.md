@@ -13,24 +13,6 @@ An intelligent, AI-powered website builder designed to streamline the web develo
 - **Version Control**: Automatic versioning of generated code with rollback capabilities.
 - **Monetization**: Credit-based system integrated with Stripe for purchases.
 
-## 🏗️ Architecture Overview
-
-```mermaid
-graph TD
-    Client[Client (React + Vite)]
-    Server[Server (Node.js + Express)]
-    DB[(PostgreSQL)]
-    AI[OpenAI API]
-    Payment[Stripe]
-    Auth[Better Auth]
-
-    Client <-->|HTTP/REST| Server
-    Server <-->|Prisma ORM| DB
-    Server -->|Generate Code| AI
-    Server -->|Process Payments| Payment
-    Server -->|Auth Flows| Auth
-```
-
 ## 🛠️ Tech Stack
 
 ### Client (Frontend)
