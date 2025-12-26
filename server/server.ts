@@ -28,7 +28,7 @@ app.post(
 
 app.use(express.json({ limit: "50mb" }));
 
-app.all("/api/auth/{*any}", toNodeHandler(auth));
+app.use("/api/auth", toNodeHandler(auth));
 
 app.use("/api/user", userRouter);
 app.use("/api/project", projectRouter);
