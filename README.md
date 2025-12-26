@@ -128,7 +128,7 @@ npm run dev
 ### Running the Server
 In the `server` directory:
 ```bash
-npm run dev
+npm run server
 ```
 
 ## 🤝 Contributing
