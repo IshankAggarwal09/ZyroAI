@@ -93,7 +93,7 @@ The comprehensive schema is defined in `server/prisma/schema.prisma`. Key models
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/IshankAggarwal09/ZyroAI
 cd Website_Builder_AI_Project
 ```
 
